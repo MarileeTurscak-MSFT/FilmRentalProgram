@@ -12,7 +12,7 @@ namespace Rental_Movie_Group_project
         {
 
             Dictionary<string, DateTime> filmRental = new Dictionary<string, DateTime>();
-            string answer1 = "Squirrle are amazing";
+            string answer1 = "Squirrels are amazing";
 
             while (answer1 != "close")
             {
