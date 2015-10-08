@@ -82,8 +82,10 @@ namespace Rental_Movie_Group_project
 
 
 
-            DateTime dueDate = DateTime.Now.Date.AddDays(7); //value of the key
-
+            DateTime dueDate = DateTime.Now.Date.AddDays(7); //value of the key 
+            //We can change the 7 to a 3 if we wish to demonstrate the overdue feature. 
+//If we were running this program in real time, it would probably be good for us to change the due date to 3. 
+//Right now we are comparing this to x (DateTimeNow + 6). So if we Want to run in real time, we can make the overdue date whatever day we want. 
 
             filmRental.Add(key, dueDate);  //adding entry to the dictionary 
             Console.WriteLine("Entry added.");
@@ -103,11 +105,11 @@ namespace Rental_Movie_Group_project
             {
 
 
-                DateTime x = DateTime.Now.AddDays(6); //if after due date negative number using 6 prints negative 
+                DateTime x = DateTime.Now.AddDays(6); //if after due date negative number using 6 prints negative//This is for testing purposes. If we were doing this in real time, we could remove .AddDays.
                 DateTime kValue = filmRental[returnedMovie];
                 int diff = DateTime.Compare(kValue, x);     //prints overdue movies
-                if (diff == -1)
-                {
+                if (diff == -1) //if the difference between the due date (entry date plus 7 days) and the variable x(entry date plus 6 days) is -1 or more, the person owes extra monies. Program only prints +1 or -1, regardless of how late the film actually is.
+                { 
                     Console.WriteLine(returnedMovie + " is overdue and owes $7");
 
                 }
