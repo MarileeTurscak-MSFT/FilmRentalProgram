@@ -1,0 +1,6 @@
+c:\users\wecancodeit\documents\visual studio 2015\Projects\FilmRental\FilmRental\bin\Debug\FilmRental.exe.config
+c:\users\wecancodeit\documents\visual studio 2015\Projects\FilmRental\FilmRental\obj\Debug\FilmRental.csprojResolveAssemblyReference.cache
+c:\users\wecancodeit\documents\visual studio 2015\Projects\FilmRental\FilmRental\bin\Debug\FilmRental.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\FilmRental\FilmRental\bin\Debug\FilmRental.pdb
+c:\users\wecancodeit\documents\visual studio 2015\Projects\FilmRental\FilmRental\obj\Debug\FilmRental.exe
+c:\users\wecancodeit\documents\visual studio 2015\Projects\FilmRental\FilmRental\obj\Debug\FilmRental.pdb
