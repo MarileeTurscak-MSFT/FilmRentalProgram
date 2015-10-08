@@ -36,7 +36,7 @@ namespace Rental_Movie_Group_project
 
                 else
                 {
-                    Console.WriteLine("check syntax or spelling");
+                    Console.WriteLine("Check syntax or spelling.");
                 }
 
 
@@ -77,7 +77,7 @@ namespace Rental_Movie_Group_project
 
 
 
-            Console.WriteLine("Enter the customers name.");
+            Console.WriteLine("Enter the customer's name.");
             string key = Console.ReadLine();   //asigning the input to the key
 
 
@@ -86,7 +86,7 @@ namespace Rental_Movie_Group_project
 
 
             filmRental.Add(key, dueDate);  //adding entry to the dictionary 
-            Console.WriteLine("entry added");
+            Console.WriteLine("Entry added.");
             return filmRental;
 
         }
@@ -96,7 +96,7 @@ namespace Rental_Movie_Group_project
 
         static Dictionary<string, DateTime> returns(Dictionary<string, DateTime> filmRental)  //add entries method 
         {
-            Console.WriteLine("enter the customers name to return the movie");
+            Console.WriteLine("Enter the customer's name to return the movie.");
 
             string returnedMovie = Console.ReadLine();
             if (filmRental.ContainsKey(returnedMovie))
@@ -108,7 +108,7 @@ namespace Rental_Movie_Group_project
                 int diff = DateTime.Compare(kValue, x);     //prints overdue movies
                 if (diff == -1)
                 {
-                    Console.WriteLine(returnedMovie + " is overdue you owe $7");
+                    Console.WriteLine(returnedMovie + " is overdue and owes $7");
 
                 }
                 else
