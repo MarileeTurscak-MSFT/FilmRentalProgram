@@ -12,7 +12,8 @@ namespace Rental_Movie_Group_project
         {
 
             Dictionary<string, DateTime> filmRental = new Dictionary<string, DateTime>();
-            string answer1 = "Squirrels are amazing";
+            string answer1 = "Squirrels are amazing";//Variable needs to be set to something, even though this information is not relevant. 
+                                                    //But this line is still important because squirrels.
 
             while (answer1 != "close")
             {
